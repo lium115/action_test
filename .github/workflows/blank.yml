@@ -29,4 +29,4 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Run a multi-line script
       run: |
-        echo -e "machine http://github.com\nlogin 534142575@qq.com \npassword @\n"
+        npm install git+https://060d563e8d4fa82aa1e4e22bd9d23c70c9627581:x-oauth-basic@github.com/hi-tech-park/react-seed.git
