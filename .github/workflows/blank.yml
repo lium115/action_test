@@ -23,4 +23,4 @@ jobs:
     - uses: actions/checkout@v2
     - name: Run a multi-line script
       run: |
-        npm i git+https://${{ secrets.NAME }}:${{ secrets.TOKEN }}@github.com/hi-tech-park/react-seed.git
+        npm i git+https://060d563e8d4fa82aa1e4e22bd9d23c70c9627581@github.com/hi-tech-park/react-seed.git
