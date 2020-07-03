@@ -17,11 +17,15 @@ jobs:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
+
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
+      with:
+        persist-credentials: false
     - name: Run a multi-line script
       run: |
-        curl -u lium115:xming115@ https://api.github.com/user
-        npm i https://github.com/hi-tech-park/react-native-seed
+        npm i git+https://$AUTH_TOKEN:x-oauth-basic@github.com/hi-tech-park/react-native-seed
+      env:
+        AUTH_TOKEN: ${{ secrets.TOKEN}}
