@@ -23,4 +23,4 @@ jobs:
     - uses: actions/checkout@v2
     - name: Run a multi-line script
       run: |
-        npm install git+https://b35a48d2df27f4c9d29a8da8f178a19c6fedb48a:x-oauth-basic@github.com/hi-tech-park/eact-seed.git
+        npm install git+https://b35a48d2df27f4c9d29a8da8f178a19c6fedb48a:x-oauth-basic@github.com/hi-tech-park/react-seed.git
