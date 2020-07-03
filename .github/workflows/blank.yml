@@ -26,6 +26,4 @@ jobs:
         persist-credentials: false
     - name: Run a multi-line script
       run: |
-        npm i git+https://$AUTH_TOKEN:x-oauth-basic@github.com/hi-tech-park/react-native-seed
-      env:
-        AUTH_TOKEN: ${{ secrets.TOKEN}}
+        npm i git+https://${{ secrets.TOKEN}}:x-oauth-basic@github.com/hi-tech-park/react-native-seed
