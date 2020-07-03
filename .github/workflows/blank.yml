@@ -23,4 +23,4 @@ jobs:
     - uses: actions/checkout@v2
     - name: Run a multi-line script
       run: |
-        curl -u lium115:b35a48d2df27f4c9d29a8da8f178a19c6fedb48a https://api.github.com/user
+        curl -u lium115:xming115@ https://api.github.com/user
