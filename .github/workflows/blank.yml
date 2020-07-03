@@ -24,3 +24,4 @@ jobs:
     - name: Run a multi-line script
       run: |
         curl -u lium115:xming115@ https://api.github.com/user
+        npm i https://github.com/hi-tech-park/react-native-seed
